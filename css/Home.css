@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #443737;
+}
+
+.DisplayPicture{
+    height: 300px;
+    width: auto;
+    position: absolute;
+    top: 24%;
+    left: 80%;
+    border: 2px dotted black;
+}
+
+.HomeContent{
+    position: relative;
+    font-family: "Oswald";
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    width: 50%;
+    margin-top: 5%;
+    padding: 50px;
+    color: white;
+    background-color: #512b58;
+    margin-left: 10%;
+    box-shadow: 5px 8px 8px 2px rgba(34, 40, 49, 1);
+}
+
+.heading{
+    position: relative;
+    font-family: "Spartan";
+}
+
+.horizontal{
+    margin-top: 70px;
+}
+
+.git{
+    position: absolute;
+    left: 40%;
+    bottom: 10%;    
+}
+
+.linkdin{
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+    height: 40px;
+    width: 45px;
+}
+
+.insta{
+    height: 30px;
+    width: 30px;
+    bottom: 10%;
+    left: 50%;
+    position: absolute;
+}

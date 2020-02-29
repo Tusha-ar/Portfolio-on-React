@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.links{
+    display: flex;
+    margin-top: 10px;
+    list-style: none;
+    justify-content: space-around;
+    min-height: 20%;
+    min-width: 70%;
+    padding: 25px;
+    background-color: #313131;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links li{
+    color: white;
+    font-size: 18px;
+    font-family: "Righteous";
+    letter-spacing: 3px;
+    transition-duration: 0.5s;
+}
+
+.links li:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #72b5b7;
+}

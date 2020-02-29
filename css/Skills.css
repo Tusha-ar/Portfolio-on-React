@@ -1,0 +1,32 @@
+.containerSkill{
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    height: 500px;
+    width: 900px;
+    background-color: #1b262c;
+    border-radius: 20px;
+    box-shadow: 2px 8px 5px 3px black;
+    position: absolute;
+}
+
+.skills{
+    list-style: none;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    top: 20%;
+    font-size: 25px;
+    line-height: 2;
+    transition-duration: 1s;
+}
+
+.classHead{
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    
+}
